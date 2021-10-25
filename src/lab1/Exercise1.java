@@ -11,9 +11,12 @@ class Exercise1 {
 			sum += x * x * x;
 		return sum;
 	}
-
+	
+	// Main method
 	public static void main(String[] args) {
 		int n = 5;
+		
+		// calling method
 		System.out.println(sumOfCube(n));
 
 	}
